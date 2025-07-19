@@ -10,3 +10,76 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* Shared Styles */
+.display-flex{
+  display: flex;
+}
+
+.bg-light{
+  background-color: rgba(155, 144, 14, 0.1);
+}
+
+.btn-primary{
+  background-color: #FF900E;
+  color: white;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+/* dark 2 */
+.text-gray{
+  color: #424242;
+}
+
+/* dark 3 */
+.text-light-gray{
+  color: #727272;
+}
+
+
+/* header styles */
+
+/* navbar releted styles */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+}
+.navbar, .bannar{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* bannar Releted styles */
+.bannar-contant{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bannar-title{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.bannar-img{
+  width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width:576px) {
+  .navbar, .nav-liks{
+    flex-direction: column;
+  }
+}
