@@ -212,6 +212,15 @@ main>section {
   filter: grayscale(100%);
 }
 
+/* footer part styles */
+.footer-section{
+  background-color: #FFF4E7;
+  padding: 20px;
+  max-width: 1440px;
+  margin: 50px auto;
+  text-align: center;
+}
+
 /* responsive media query */
 
 /* Small Size Device */
